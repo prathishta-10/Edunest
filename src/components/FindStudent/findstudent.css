@@ -1,0 +1,188 @@
+.students-container {
+  margin-top: 65px;
+  padding: 20px;
+  background-color: #000000; /* Matching the tutors-container background */
+  border-radius: 8px; /* Rounded corners for a sleek look */
+  margin: 100px 40px; /* Centering and spacing from edges */
+}
+
+.students-header {
+  text-align: center;
+  font-size: 1.8rem;
+  color: rgb(237, 235, 235); /* Contrast text for better visibility on dark background */
+  margin-bottom: 10px;
+}
+
+.students-subheader {
+  text-align: center;
+  font-size: 1rem;
+  color: #ddd; /* Subtle text color for a clean look */
+  margin-bottom: 30px;
+}
+
+.students-grid {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping to the next line if necessary */
+  gap: 20px; /* Space between cards */
+  justify-content: center; /* Center the cards in the container */
+}
+
+.student-card {
+  width: 350px; /* Fixed width for consistency */
+  background-color: #f3eded; /* Matching the tutors-container card background */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: left;
+}
+.students-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.students-page {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.image-container {
+  flex: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1; /* Ensure it’s visible on top of other elements */
+  max-width: 300px;
+}
+
+.page-image {
+  width: 130%;
+  height: auto;
+  margin-top: 170px;
+  border-radius: 5px;
+}
+
+.students-container {
+  flex: 3;
+  background: rgb(103, 94, 110); /* Simulating the black background */
+  color: white;
+  padding: 50px;
+  margin-right: 350px; /* Leave space for the image on the right */
+  border-radius: 10px;
+}
+
+.students-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.student-card {
+  background: #655c68;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+
+
+
+
+
+.student-card-header {
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.student-title {
+  font-size: 16px;
+  color: #0e1012; /* Matching the tutor title color */
+  margin: 5px 0;
+}
+
+.student-details {
+  padding: 10px;
+  background-color: #eef2f3; /* Light blue background for details */
+  border: 1px solid #cde7f6; /* Subtle border */
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.student-description {
+  background-color: #e9f7fc;
+  border: 1px solid #cde7f6;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+.student-card-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+
+
+
+.action-button {
+  padding: 8px 12px;
+  font-size: 0.85rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff; /* White text for all buttons */
+}
+
+.action-button.view-details {
+  background-color: #17a2b8; /* Matching tutor's View Details button */
+}
+
+.action-button.apply {
+  background-color: #28a745; /* Matching tutor's Apply button */
+}
+
+.action-button:hover {
+  opacity: 0.9; /* Subtle hover effect */
+}
+.search-bar-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-bar:focus {
+  border-color: #151618; /* Optional: Add a focus color */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.location {
+  color: black; /* Set text color to black */
+}
+.location {
+  color: black; /* Set text color to black */
+}
+/* Add this style to ensure the location text is black */
+.student-info p {
+  color: black; /* Set text color to black */
+  font-weight: bold; /* Optional: Make it bold for better emphasis */
+}
